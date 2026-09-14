@@ -2,6 +2,12 @@
 // `page` points to the dedicated detail page for each project.
 const PROJECTS = [
     {
+      title: "Physicalization - Sleep Battery",
+      description: "A physical representation of sleep data using a battery metaphor.",
+      tags: ["Visualization"],
+      page: "projects/Battery.html",
+    },
+    {
       title: "Transition VR/AR",
       description: "A locomotion technique that switches between first-person (AR) and third-person (VR) perspectives.",
       tags: ["VR/AR", "Game"],
