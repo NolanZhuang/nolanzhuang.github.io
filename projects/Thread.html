@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project | MagicalThread</title>
+  <!-- Note: use ../ because this file is one folder deep -->
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header id="navbar" data-active="projects" data-base="../"></header>
+
+  <main class="container">
+    <a class="back-link" href="../projects.html">← Back to Projects</a>
+
+    <h1>Magical Thread</h1>
+
+    <div class="tag-filters static">
+      <span class="tag">Visualization</span>
+      <span class="tag">Design</span>
+    </div>
+
+    <section class="block">
+      <h2>Overview</h2>
+      <p>Most data visualization tools separate authoring from exploration: users select a chart type
+        from a fixed gallery, bind data to predetermined encodings, and obtain an opaque result that is
+        difficult to question or reshape. This makes open-ended exploration of one's own data
+        awkward, since altering the view often means starting over. We present Magical Thread, a
+        canvas-based visualization tool in which users freely construct visualizations by hand
+        drawing a thread, dragging data onto it, and stacking composable function cards that
+        transform, encode, and re-express the data. Rather than choosing a chart, users build one
+        incrementally: scatter, line, bar, and multi-dimensional plots all emerge from the same
+        lightweight primitives. Each function card is a concrete, draggable object that can be enabled,
+        disabled, deleted, reordered, and copied, forming an ordered, order-sensitive, and fully non
+        destructive pipeline in which every automated suggestion remains a proposal the user can
+        override. Central to our design is the treatment of the thread as an interaction substrate: a
+        single, minimal primitive that carries data, geometry, and operations, and onto which
+        visualizations are composed. A key question we investigate is the expressiveness of this
+        substrate, specifically how wide a range of visualizations and exploratory actions can be
+        supported by threads and function cards without introducing new, special-purpose machinery.
+        Wedescribe the system's design and architecture, in which each new capability is added
+        purely by registering a new card type, and through a set of use cases we show that treating the
+        thread-plus-pipeline as the primary artifact makes visualization construction itself a
+        transparent, reversible, and extensible medium for data exploration.</p>
+    </section>
+
+    <section class="block">
+      <h2>Tech Stack</h2>
+      <ul class="skills">
+        <li>JavaScript</li>
+        <li>React</li>
+      </ul>
+    </section>
+
+    <section class="block">
+      <h2>Demo</h2>
+      <!-- Image demo -->
+      <img class="demo-media" src="../assets/img/Thread.png" alt="Project demo" />
+      <!-- Video demo (uncomment to use)
+      <video class="demo-media" controls>
+        <source src="../assets/img/project-1-demo.mp4" type="video/mp4" />
+      </video>
+      -->
+    </section>
+
+    <section class="block">
+      <a href="../assets/img/magical thread report.pdf" target="_blank" rel="noopener">
+        View the report
+      </a>
+    </section>
+  </main>
+
+  <footer id="footer" data-base="../"></footer>
+
+  <script src="../assets/js/i18n.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

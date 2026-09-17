@@ -4,8 +4,14 @@ const PROJECTS = [
     {
       title: "Physicalization - Sleep Battery",
       description: "A physical representation of sleep data using a battery metaphor.",
-      tags: ["Visualization"],
+      tags: ["Visualization", "Design"],
       page: "projects/Battery.html",
+    },
+    {
+      title: "Magical Thread",
+      description: "An interactive system allows users to create visualizations and explore dataset freely.",
+      tags: ["Visualization", "Design"],
+      page: "projects/Thread.html",
     },
     {
       title: "Transition VR/AR",
